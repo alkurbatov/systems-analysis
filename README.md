@@ -6,11 +6,14 @@
 ├── .gitignore
 ├── LICENCE
 ├── README.md
+├── docs                    # дополнительные материалы
 └── system
     ├── Data.svg            # модель данных и коммуникаций
     ├── ES.svg              # event storming модель проекта 
-    ├── Realization.svg     # Схема реализации проекта
-    ├── description.md      # аргументация принятых дизайн решени
+    ├── OldES.svg           # event stormin модель проекта из домашки первого урока
+    ├── Realization.svg     # схема реализации проекта
+    ├── Submonains.svg      # поддомены, bounded-контексты, core domain model
+    ├── design.md           # дизайн и аргументация принятых дизайн решени
     ├── docs                # вспомогательные материалы и полезные ссылки
     └── src                 # исходники диаграмм
 ```

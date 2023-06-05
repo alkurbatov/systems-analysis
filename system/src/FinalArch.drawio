@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-05-30T18:30:25.094Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="XhB2UHYp4J9NzoDgFTnp" version="21.2.8" type="device">
+<mxfile host="Electron" modified="2023-06-06T14:57:50.153Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="GUKmJGXRaukwMxE3ecWP" version="21.2.8" type="device">
   <diagram name="Страница 1" id="2wxwdywe4GhUlTq6t_6m">
-    <mxGraphModel dx="7079" dy="3704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="5522" dy="2646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -388,7 +388,7 @@
         <mxCell id="8zoq_sl-yrYLohVnixzI-198" value="Сборка расходников&amp;nbsp; для заказа" style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1070.0000000000002" y="4330" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="8zoq_sl-yrYLohVnixzI-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#008a00;strokeColor=#005700;" parent="1" source="8zoq_sl-yrYLohVnixzI-199" target="8zoq_sl-yrYLohVnixzI-203" edge="1">
+        <mxCell id="8zoq_sl-yrYLohVnixzI-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#008a00;strokeColor=#001DBC;" parent="1" source="8zoq_sl-yrYLohVnixzI-199" target="8zoq_sl-yrYLohVnixzI-203" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8zoq_sl-yrYLohVnixzI-199" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B1DDF0;strokeColor=#23445d;" parent="1" vertex="1">
@@ -561,8 +561,8 @@
         <mxCell id="8zoq_sl-yrYLohVnixzI-252" value="&lt;b&gt;Асинхронные коммуникации&lt;br&gt;&lt;/b&gt;Новые воркеры могут быть добавлены в систему асинхронно по мере появления." style="text;html=1;strokeColor=none;fillColor=#E6E6E6;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1797.51" y="3590" width="245" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8zoq_sl-yrYLohVnixzI-255" value="&lt;b&gt;Синхронные коммуникации&lt;br&gt;&lt;/b&gt;Так как работаем с внешней системой." style="text;html=1;strokeColor=none;fillColor=#E6E6E6;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1607.51" y="4130" width="245" height="60" as="geometry" />
+        <mxCell id="8zoq_sl-yrYLohVnixzI-255" value="&lt;b&gt;Асинхронные коммуникации&lt;br&gt;&lt;/b&gt;Сервис отбора воркеров и без того достаточно нагружен, нет необходимости мгновенной загрузки новых тестов и методик." style="text;html=1;strokeColor=none;fillColor=#E6E6E6;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1607.51" y="4130" width="247.51" height="90" as="geometry" />
         </mxCell>
         <mxCell id="8zoq_sl-yrYLohVnixzI-256" value="&lt;b&gt;Асинхронные коммуникации&lt;br&gt;&lt;/b&gt;Есть большой разрыв во времени формированием заказа и готовностью расходников, а значит можно послать событие о новом заказе.&lt;br&gt;Не хотим нагружать магазин синхронными коммуникациями." style="text;html=1;strokeColor=none;fillColor=#E6E6E6;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-910" y="4120" width="245" height="130" as="geometry" />
@@ -605,6 +605,18 @@
         </mxCell>
         <mxCell id="8zoq_sl-yrYLohVnixzI-270" value="Layered monolith" style="ellipse;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
           <mxGeometry x="-777.51" y="4440" width="85" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CDFFTLOsOX2RF94hQjlW-2" value="&lt;b&gt;Синхронные коммуникации&lt;br&gt;&lt;/b&gt;Так как работаем с внешней системой." style="text;html=1;strokeColor=none;fillColor=#E6E6E6;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1017.51" y="4520" width="247.51" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CDFFTLOsOX2RF94hQjlW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#008a00;strokeColor=#001DBC;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1200" y="3560" as="sourcePoint" />
+            <mxPoint x="-1200" y="3360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CDFFTLOsOX2RF94hQjlW-5" value="&lt;b&gt;Асинхронные коммуникации&lt;br&gt;&lt;/b&gt;История выполнения заказов и характеристики воркеров. Можно передать с небольшой задержкой без ущерба качества матчинга." style="text;html=1;strokeColor=none;fillColor=#E6E6E6;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1202.51" y="3400" width="245" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

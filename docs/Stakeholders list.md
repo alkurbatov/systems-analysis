@@ -1,0 +1,50 @@
+# Список стейкхолдеров
+В этом документе лежит список, который помогает искать стейкхолдеров. Если похоже, что роль есть в бизнесе, который вы исследуете, — смело отмечайте и идите искать человека, который её выполняет.
+
+- [ ] analyst
+- [ ] business analyst
+- [ ] (other) architects
+- [ ] auditor
+- [ ] supervisory board
+- [ ] project sponsor
+- [ ] public authority
+- [ ] council
+- [ ] build manager
+- [ ] business manager
+- [ ] database administrator
+- [ ] end users
+- [ ] enterprise architect
+- [ ] developer
+- [ ] external service providers
+- [ ] external partners
+- [ ] department
+- [ ] technical administrator
+- [ ] hardware engineer
+- [ ] hotline/support
+- [ ] infrastructure planners
+- [ ] integrator
+- [ ] it strategy
+- [ ] lawyer
+- [ ] configuration manager
+- [ ] control panel
+- [ ] customer
+- [ ] steering committee
+- [ ] management
+- [ ] neighboring systems
+- [ ] network administrator
+- [ ] operator
+- [ ] product managers
+- [ ] product owners
+- [ ] project managers
+- [ ] QA department
+- [ ] release manager
+- [ ] rollout manager
+- [ ] scrum master
+- [ ] security officers
+- [ ] system integrator
+- [ ] tester
+- [ ] UX designers
+- [ ] related projects
+- [ ] maintenance team
+- [ ] designers
+- [ ] suppliers
